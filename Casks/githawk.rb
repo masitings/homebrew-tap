@@ -1,9 +1,9 @@
 cask "githawk" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "cb49f3257f1f0bee9b83680fa6e8e05d7ac5d27aa865fe3b20a43ea279e277c4",
-         intel: "eda5028295f63541c125056eddceaf09fa2ed5ebfe473a04c551fd482939f813"
+  version "0.2.0"
+  sha256 arm:   "0fcbaaf61de93d1cf8a565466397fa6808eb594bae086424b8066145a4ac7780",
+         intel: "009aaf7fea4e3d638472692788a08fe796a13b1a63e259bb5a4033bd8f4a95a8"
 
   url "https://github.com/masitings/githawk/releases/download/v#{version}/GitHawk_#{version}_#{arch}.dmg"
   name "GitHawk"
